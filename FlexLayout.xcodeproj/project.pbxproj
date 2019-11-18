@@ -335,7 +335,7 @@
 					};
 					24DA37621EF843C500D1AB2F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = F37Y9H9E46;
+						DevelopmentTeam = 8J6NBRXZWU;
 						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
@@ -650,12 +650,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72993EF1EA5C10B379712194 /* Pods-FlexLayoutTests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = F37Y9H9E46;
+				DEVELOPMENT_TEAM = 8J6NBRXZWU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucdion.FlexLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -664,12 +665,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16BD57F85F8B4DD53D55488F /* Pods-FlexLayoutTests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = F37Y9H9E46;
+				DEVELOPMENT_TEAM = 8J6NBRXZWU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucdion.FlexLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
